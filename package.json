@@ -1,0 +1,24 @@
+{
+  "name": "babel-polyfill-webpacked",
+  "version": "1.0.0",
+  "description": "Webpacked babel-core/polyfill",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack babel-core/polyfill index.js --optimize-minimize --target node --display-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawaz/babel-polyfill-webpacked.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawaz/babel-polyfill-webpacked/issues"
+  },
+  "homepage": "https://github.com/kawaz/babel-polyfill-webpacked#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.24",
+    "webpack": "^1.12.1"
+  }
+}
